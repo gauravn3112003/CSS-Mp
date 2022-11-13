@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Government polytechnic, Arvi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="./styles/home.css" rel="stylesheet" />
+    <link href="./styles/LandingPage.css" rel="stylesheet" />
+    <link href="./styles/utility.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar  -->
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">menu</span>
+      </button>
+      <h1 class="navbar-title">GPARVI</h1>
+      <nav class="navbar-menu">
+        <div class="navBtn">
+          <a class="btnNav active" href="/">Home</a>
+        </div>
+        <div class="navBtn" id="IMPDepartment">
+          <li class="btnNav" >Department  <i class="bi bi-arrow-down-short"></i
+            ></li>
+            <div  class="expand  expandNav" >
+              <ul>
+                <li><a href="/">Computer Engg.</a></li>
+                <li><a href="/">Chemical Engg.</a></li>
+                <li><a href="/">Electrical Engg.</a></li>
+                <li><a href="/">Electronic Engg.</a></li>
+                <li><a href="/">Mechanical Engg.</a></li>
+                <li><a href="/">Civil Engg.</a></li>
+              </ul>
+            </div>
+        </div>
+        <div  class="navBtn">
+          <a class="btnNav" href="/">Training & Placement</a>
+        </div>
+        <div  class="navBtn" id="IMPLink">
+          <li  class="btnNav"  
+            >Important Links <i class="bi bi-arrow-down-short"></i
+          ></li>
+          <div  class="expand expandImpNav ">
+            <ul>
+              <li><a href="/">Diploma Admission Process</a></li>
+              <li><a href="/">Maharashtra Government</a></li>
+              <li><a href="/">DTE</a></li>
+              <li><a href="/">MSBTE</a></li>
+              <li><a href="/">RO Nagpur</a></li>
+              <li><a href="/">MPSC</a></li>
+              <li><a href="/">AICTE</a></li>
+              <li><a href="/">ISTE</a></li>
+              <li><a href="/">Scolarship Portal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navBtn">
+          <a class="btnNav" href="/">Gallery</a>
+        </div>
+        <div class="navBtn">
+          <a class="btnNav" href="/">Student's Chapter</a>
+        </div>
+        <div class="navBtn">
+          <a class="btnNav" href="/">About Us</a>
+        </div>
+        <div class="navBtn">
+          <a class="btnNav" href="./pages/contact.html">Contact Us</a>
+        </div>
+      </nav>
+    </nav>
+
+    <!-- Main Section  -->
+    <section class="SCenter hSection">
+      <!-- <marquee behavior="" direction=""></marquee> -->
+
+      <!-- Homepage left section -->
+      <div class="HLeft">
+        <div class="curoser">
+          <img
+            class="CurImg"
+            src="https://cache.careers360.mobi/media/presets/200X133/colleges/social-media/media-gallery/17670/2021/1/11/Campus%20view%20of%20Government%20Polytechnic%20Arvi_Campus-view.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="navBtn">
+          <div class="previous btnCur">
+            <button>Previous</button>
+          </div>
+          <div class="next btnCur">
+            <button>Next</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Homepage right section -->
+      <div class="HRight">
+        <div class="header">
+          <div class="headerLeft">
+            <div class="gif">
+              <img
+                src="https://www.gparvi.ac.in/images/dte_logo.gif"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+          <div class="headerCenter">
+            <div class="head1">Government Polytechnic, Arvi</div>
+            <div class="head2">
+              Approved by AICTE, Recognised by DTE & Affiliated to MSBTE
+            </div>
+            <div class="headText">
+              <ul>
+                <li>e-mail : principal.gparvi@dtemaharashtra.gov.in</li>
+                <li>office.gparvi@dtemaharashtra.gov.in</li>
+              </ul>
+            </div>
+          </div>
+          <div class="headerRight">
+            <div class="gif">
+              <img src="https://www.gparvi.ac.in/images/arvi_logo.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="head welcome FCenter">
+          Wel-Come To Government Polytechnic Arvi
+        </div>
+        <div class="vision">
+          <div class="head PColor">Vision</div>
+          To become a globally recognised technical educational institute,
+          committed to produce competent manpower, fulfilling needs of industry
+          and society.
+        </div>
+        <div class="mission">
+          <div class="head PColor">Mission</div>
+          <ul>
+            <li>
+              Impart technical knowledge effectively through well qualified and
+              trained faculty.
+            </li>
+            <li>
+              Contribute towards curriculum and resource updating, incorporating
+              latest technological trends.
+            </li>
+            <li>
+              Equip students with technical skills and intellectual capability
+              to meet current industrial needs.
+            </li>
+            <li>
+              Inculcate values and ethics in students for contribution towards
+              social development
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts  -->
+    <script type="text/javascript" src="./Javascript/main.js"></script>
+  </body>
+</html>
